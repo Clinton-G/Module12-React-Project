@@ -26,14 +26,14 @@ const ShoppingCart = () => {
     <div>
       <h2>Shopping Cart</h2>
       {cart.length === 0 ? (
-        <p>Your cart is empty</p>
+        <p>Youre Cart is Empty</p>
       ) : (
         <div>
           <ul>
             {cart.map((product) => (
               <li key={product.id}>
                 {product.title} - ${product.price} x {product.quantity}
-                <button onClick={() => handleRemove(product.id)}>Remove</button>
+                <button onClick={() => handleRemove(product.id)}>Remove:</button>
                 <input
                   type="number"
                   value={product.quantity}
