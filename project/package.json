@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest",
-    "postinstall": "chmod +x ./node_modules/.bin/vite"
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.3.1",
